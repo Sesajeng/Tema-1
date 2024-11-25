@@ -4,6 +4,22 @@ body {
   background-color: #f0f0f0;
   color: #333;
 }
+.copy-btn {
+  margin-top: 1em;
+  padding: 8px 20px;
+  background-color: #000;
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.copy-btn:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+
+
 .modal-content .address-title {
   font-size: 2em; 
   font-weight: bold; 
@@ -17,8 +33,8 @@ body {
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 90%;
-  max-width: 50em !important;
+  width: 100% !important;
+  max-width: 100em !important;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -26,7 +42,8 @@ body {
 }
 
 #giftModal .modal-content p.address-text {
-  font-size: 1.3em; 
+  font-size: 1.2em; 
+  margin-top: -1em;
   color: #333; /* Set the color, adjust as needed */
 }
 #rekeningModal .modal-content p.address-text {
@@ -1264,7 +1281,7 @@ body {
 }
 
 .rsvp-container {
-  max-width: 900px;
+  max-width: 900px
   height: 680px;
   margin: 0 auto;
   border-radius: 10px;
@@ -1288,7 +1305,8 @@ body {
 
 .rsvp-container input,
 .rsvp-container textarea {
-  width: 100%;
+  width: 100% ;
+  max-width: 290em !important;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -1667,7 +1685,7 @@ select.custom-select:focus {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 1px;
+  margin-left: 0px !important;
   margin-top: -20px;
   flex-wrap: nowrap;
   margin-top: -10px;
@@ -1676,7 +1694,7 @@ select.custom-select:focus {
 .attendance-item {
   display: flex;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 30px !important;
 }
 
 .attendance-item label {
@@ -1685,7 +1703,7 @@ select.custom-select:focus {
 }
 
 .attendance-item input[type='radio'] {
-  margin-right: -20px;
+  margin-right: -15px !important;
   transform: scale(0.8);
 }
 
@@ -1698,7 +1716,6 @@ select.custom-select:focus {
 .photo-gallery-desktop {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 5px; 
 }
 .photo-item {
   margin: 30px;
@@ -2937,6 +2954,28 @@ button1:hover {
     transform: translateX(-30%); 
 }
 
+.rsvp-container input,
+.rsvp-container textarea {
+  width: 100%;
+  margin-left: -1em !important;
+}
+
+.copy-btn {
+  margin-top: -2em;
+  padding: 8px 20px;
+  background-color: #000;
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.copy-btn:hover {
+  background-color: #333; /* Darker shade on hover */
+}
+
+
 .modal-content .address-title {
   font-size: 1.5em; 
   font-weight: bold; 
@@ -2947,7 +2986,8 @@ button1:hover {
 
 #giftModal .modal-content p.address-text {
   font-size: 1em !important; 
-  color: #333; /* Set the color, adjust as needed */
+  margin-top: 1em;
+  color: #333; 
 }
 #rekeningModal .modal-content p.address-text {
   font-size: 1em !important; 
@@ -2981,8 +3021,6 @@ button1:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   animation: fadeIn 0.3s ease;
 }
-
-
 
 .timeline li.timeline-inverted .timeline-panel {
     transform: translateX(30%);
@@ -4083,7 +4121,7 @@ button1:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
 padding: 1em;
-gap: 0.5em;
+gap: -1em;
 justify-content: center;
 align-items: center;
 margin-left:1.2em;
@@ -4103,6 +4141,7 @@ margin-left:1.2em;
     border-radius: 0px; 
     justify-content: center;
     align-items: center;
+    margin-top: 1em !important;
   }
 
   .story {

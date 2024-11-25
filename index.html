@@ -182,7 +182,7 @@
           </p>
           <form action="#" method="post" onsubmit="showConfirmation(event)">
             <label1 for="name">Nama Lengkap</label1>
-            <input type="text" id="name" name="name" placeholder="Galang Freya" readonly>
+            <input type="text" value="Ihsan" readonly>
 
             <label1 for="name">No Handphone</label1>
             <input type="text" id="phone" name="phone" placeholder="">
@@ -268,14 +268,17 @@
         </div>
       </div>
       <!-- Modal Pop-Up Alamat -->
+<!-- Modal Pop-Up Alamat -->
 <div id="giftModal">
   <div class="modal-content">
     <span class="close-btn" onclick="closeModalGift()">&times;</span>
     <h1 class="address-title"><b>Alamat</b></h1> <br>
     <p class="address-text">
-      Jl. Merak Kencana II Blok J2 No. 5 RT 4/RW 14, Rawabuntu, Serpong, Kota Tangerang Selatan </p>
-      <i class="fas fa-copy copy-icon" onclick="copyToClipboard('Jl. Merak Kencana II Blok J2 No. 5 RT 4/RW 14, Rawabuntu, Serpong, Kota Tangerang Selatan')"></i>
+      Jl. Merak Kencana II Blok J2 No. 5 RT 4/RW 14, Rawabuntu, Serpong, Kota Tangerang Selatan
     </p>
+    <button class="copy-btn" onclick="copyToClipboard('Jl. Merak Kencana II Blok J2 No. 5 RT 4/RW 14, Rawabuntu, Serpong, Kota Tangerang Selatan')">
+      Salin Alamat
+    </button>
   </div>
 </div>
 
@@ -284,10 +287,15 @@
   <div class="modal-content">
     <span class="close-btn" onclick="closeModalRekening()">&times;</span>
     <h1 class="address-title"><b>BCA</b></h1> <br>
-     <p class="address-text">
-      4972154591 <br>
-      <i class="fas fa-copy copy-icon" onclick="copyToClipboard('4972154591')"></i> 
-      <p class="address-text">A.n Shinta Amalia Kusuma Wardhani</p>
+    <p class="address-text">
+      4972154591
+    </p>
+    <p class="address-text">
+      A.n Shinta Amalia Kusuma Wardhani
+    </p>
+    <button class="copy-btn" onclick="copyToClipboard('4972154591')">
+      Salin Rekening
+    </button>
   </div>
 </div>
 
