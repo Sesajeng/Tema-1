@@ -1281,7 +1281,7 @@ body {
 }
 
 .rsvp-container {
-  max-width: 900px
+  max-width: 900px;
   height: 680px;
   margin: 0 auto;
   border-radius: 10px;
