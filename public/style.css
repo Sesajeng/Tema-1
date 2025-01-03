@@ -3953,14 +3953,13 @@ button1:hover {
   }
 
   .attendance-items {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: -12px;
-    margin-top: -20px;
-    flex-wrap: nowrap;
-    margin-top: -10px;
-  }
+    flex-direction: row; /* Elemen ditata secara horizontal */
+    justify-content: space-between; /* Jarak antara opsi dibuat merata */
+    align-items: center; /* Radio button dan teks sejajar secara vertikal */
+    gap: 20px; /* Jarak antar elemen (opsional, jika diperlukan) */
+    margin: 0; /* Hilangkan margin yang tidak diperlukan */
+    padding: 0; /* Pastikan padding tidak mengganggu tata letak */
+}
 
   .attendance-item {
     display: flex;
